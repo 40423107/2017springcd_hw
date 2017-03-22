@@ -1,5 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423107上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-02T00:00:00+08:00</updated><entry><title>20170302</title><link href="./40423107.html" rel="alternate"></link><published>2017-03-02T00:00:00+08:00</published><updated>2017-03-02T00:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-03-02:./40423107.html</id><summary type="html">&lt;p&gt;四連桿機構&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423107上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T00:00:00+08:00</updated><entry><title>20170316第四週</title><link href="./40423107W4.html" rel="alternate"></link><published>2017-03-16T00:00:00+08:00</published><updated>2017-03-16T00:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-03-16:./40423107W4.html</id><summary type="html">&lt;p&gt;單連桿&lt;/p&gt;
+
+
+&lt;p&gt;零件一&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/qmimTBGnoaw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;零件二&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/fbNXiShwi3Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;零件三&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/_Ir8e_aRKJc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;組合&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/VZQbRwQik_Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="syllabus"></category><category term="w4"></category></entry><entry><title>20170309第三週</title><link href="./40423107W3.html" rel="alternate"></link><published>2017-03-09T00:00:00+08:00</published><updated>2017-03-09T00:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-03-09:./40423107W3.html</id><summary type="html">&lt;p&gt;四連桿機構+翻譯影片&lt;/p&gt;
+
+
+&lt;p&gt;翻譯影片
+第四組影片 hyperwork2 and hyperwork4
+40423106
+40423108
+40423121
+40423125
+負責 hyperwork2&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/2r5OHm7_FGc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;40423107
+40423139
+40423140
+負責 hyperwork4&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/209207407" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/209207407"&gt;Produce&lt;/a&gt; from &lt;a href="https://vimeo.com/user57418042"&gt;曾繼緯&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;翻譯： The core of HyperMesh has always been about meshing and geometry cleanup， HyperMesh的核心是關於網路劃分和幾何清理，&lt;/p&gt;
+&lt;p&gt;and generating a really good solver deck. 並且產生一個非常好的解算平台&lt;/p&gt;
+&lt;p&gt;So we've continued to stay really focused on geometry ， 所以我們持續專注於幾何&lt;/p&gt;
+&lt;p&gt;generation and clean up， 生成和清理&lt;/p&gt;
+&lt;p&gt;mesh generation to improve the quality of the mesh， 藉由網格生成以提高網格質量&lt;/p&gt;
+&lt;p&gt;the flow of the mesh. 網格的流動&lt;/p&gt;
+&lt;p&gt;And within Altair， 在Altair裡&lt;/p&gt;
+&lt;p&gt;our own solver and modeling visualization teams work very closely together 我們的解算器和建模可以清楚的看見團隊緊密合作&lt;/p&gt;
+&lt;p&gt;to make sure we're supporting all the latest enhancements to the Altair solvers 以確保我們增強所有最新的Altair解算器&lt;/p&gt;
+&lt;p&gt;and the modeling visualization side of things. 並且可以清楚看見物體的模組&lt;/p&gt;
+&lt;p&gt;Simlab is always about automate， automate，automated. Simlab是關於自動化，自動化，自動化.&lt;/p&gt;
+&lt;p&gt;We continue to improve the user experience. 我們持續改善用戶體驗&lt;/p&gt;
+&lt;p&gt;We've added the mesh fading approach in the graphics that we use in HyperMesh now. 我們在HyperMesh中使用的圖形中添加了網格衰減方法。&lt;/p&gt;
+&lt;p&gt;We've added a new measurement tool, 我們添加了一個新的測量工具，&lt;/p&gt;
+&lt;p&gt;we've included JT and Catia direct readers. 我們包括JT和Catia的讀者&lt;/p&gt;
+&lt;p&gt;We have new macro tools for creating bearings and welds. 我們新的巨集工具用於創建軸承與焊接&lt;/p&gt;
+&lt;p&gt;We put a lot of effort into the CFD pre-processing in simLab now as well. 我們在simLab中也投入了大量的資源進行CFD的預先處理。&lt;/p&gt;
+&lt;p&gt;And we support the new nanoFluidx SPH fluid code from Altair. 以及我們的支援來自於Altair新的nanoFluidX SPH流體代碼。&lt;/p&gt;
+&lt;p&gt;And we now have support for FEKO inside of SimLab. 而現在我們已經在SimLab中支援FEKO。&lt;/p&gt;
+&lt;p&gt;And very exciting,we'ce added a Python intreface to SimLab as well. 非常令人振奮的是，我們還為SimLab添加了一個Python介面。&lt;/p&gt;
+&lt;p&gt;There's a lot of work going on in the crash domain side of HyperMesh right now. 現在在HyperMesh的損毀處有很多修復工作正在進行。&lt;/p&gt;
+&lt;p&gt;So we've kind of gone back to the drawing board on creating a new dummy positioner that has a new kinematic solver nuilt into it, 所以我們回到繪圖板上創建一個新的虛擬定位器，其中內置了一個新的運動解碼器，&lt;/p&gt;
+&lt;p&gt;and new graphical manipulators that make position a dummy in the vehicle much simpler, 以及新的圖形操縱器，使位置在虛擬的傳送中變得更簡單，&lt;/p&gt;
+&lt;p&gt;and actually kind of fun. 實際上會有趣。&lt;/p&gt;
+&lt;p&gt;We've also employed that same kinematic solver in a seat positioning tool. 我們還在位置定位工具中使用了相同的運動解碼器。&lt;/p&gt;
+&lt;p&gt;So now it will simulate all the mechanisms that actually articulate the seat in the vehicle 所以現在它將模擬所有的實際機構在傳送位置的機制&lt;/p&gt;
+&lt;p&gt;so you can get that into the correct position as well. 所以你可以得到正確的位置。&lt;/p&gt;
+&lt;p&gt;we've had some great enhancements to HyperView. 我們對HyperView進行了一些重大的改進。&lt;/p&gt;
+&lt;p&gt;you can directly interact with the legends now to control what's on the screen in terms the contours of the different data types. 您可以直接與圖例進行互動，以便根據不同數據類型的週線控制屏幕上的內容。&lt;/p&gt;
+&lt;p&gt;where you can have multiple results 你可以有多個結果&lt;/p&gt;
+&lt;p&gt;files associated with a model file so 文件與模組文件相關聯等&lt;/p&gt;
+&lt;p&gt;that makes it really easy to bring in 所以使它真的很容易帶來&lt;/p&gt;
+&lt;p&gt;results between different runs into the 結果之間的不同運行&lt;/p&gt;
+&lt;p&gt;same model space 相同模組空間&lt;/p&gt;
+&lt;p&gt;and compare results HyperGraph is 並比較HyperGraph的結果&lt;/p&gt;
+&lt;p&gt;really the best plotting system for CAE results. 真的是CAE結果的最佳繪圖系統。&lt;/p&gt;
+&lt;p&gt;it's essentially a data 它本質上是一個數據&lt;/p&gt;
+&lt;p&gt;miner that lets you go through all the 讓你經歷所有&lt;/p&gt;
+&lt;p&gt;results files, generate large reports with 結果文件，生成大型報告和&lt;/p&gt;
+&lt;p&gt;many points, within the curves. And once 許多點，在曲線內。 在一次&lt;/p&gt;
+&lt;p&gt;you're established a 你成立了一個&lt;/p&gt;
+&lt;p&gt;reports that you're looking at, you 你在看報告，你&lt;/p&gt;
+&lt;p&gt;can make global changes across the 可以使全球變化跨越這&lt;/p&gt;
+&lt;p&gt;entire report so it's a great automation 整個報告，所以它是一個偉大的自動化&lt;/p&gt;
+&lt;p&gt;Tool for post-processing 工具後處理&lt;/p&gt;
+&lt;p&gt;用onshape畫四連桿機構&lt;/p&gt;
+&lt;p&gt;零件一&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/JBHVwdPQfTo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;零件二&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/G_R_kCYHeTc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;零件三&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/N_2QiWmcN1o" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;組合&lt;/p&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/JtnnNHCZGI4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="syllabus"></category><category term="w3"></category></entry><entry><title>20170302第二週</title><link href="./40423107W2.html" rel="alternate"></link><published>2017-03-02T00:00:00+08:00</published><updated>2017-03-02T00:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-03-02:./40423107W2.html</id><summary type="html">&lt;p&gt;四連桿機構&lt;/p&gt;
 
 
 &lt;iframe src="https://player.vimeo.com/video/207447515" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
