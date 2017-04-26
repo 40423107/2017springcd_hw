@@ -8,7 +8,12 @@
 &lt;h2&gt;1.Fossil Server 實習查驗&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://mde2a2.kmol.info/midterm/ag4/index"&gt;ag4期中考報告 fossil &lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;2.四連桿機構協同 Trace Point 查驗&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://40423106.github.io/2016fallcadp_hw/blog/qi-zhong-bao-gao.html"&gt;40423106_四連桿機構協同 Trace Point 查驗&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://40423107.github.io/2016fallcadp_hw/blog/40423107W9.html"&gt;40423107_四連桿機構協同 Trace Point 查驗&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423108.github.io/2017springcd_hw/blog/xie-tong-chan-pin-she-ji-shi-xi-qi-zhong-si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html"&gt;40423108_四連桿機構協同 Trace Point 查驗&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423125.github.io/2016fallcadp_hw/blog/40423125_si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html"&gt;40423125_四連桿機構協同 Trace Point 查驗&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423139.github.io/2016fallcadp_hw/blog/40423139_si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html"&gt;40423139_四連桿機構協同 Trace Point 查驗&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40423140.github.io/2016fallcadp_hw/blog/40423140_si-lian-gan-ji-gou-xie-tong-trace-point-cha-yan.html"&gt;40423140_四連桿機構協同 Trace Point 查驗&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;3.Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h2&gt;
 &lt;p&gt;利用SolveSpace畫Fourbar Walker&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/EvKEe2F"&gt;&lt;img src="http://i.imgur.com/EvKEe2F.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -25,7 +30,7 @@
 &lt;p&gt;組合&lt;/p&gt;
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/hT1Mqk_ZCvo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h2&gt;4.分組協同零件展示&lt;/h2&gt;
+&lt;h2&gt;(四) 分組協同零件展示&lt;/h2&gt;
 &lt;p&gt;&lt;link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
 &lt;script src="./../work/madeleine/src/stats.js"&gt;&lt;/script&gt;
 &lt;script src="./../work/madeleine/src/detector.js"&gt;&lt;/script&gt;
@@ -37,7 +42,7 @@
 window.onload = function(){
     var madeleine = new Madeleine({
       target: 'target', // target div id
-      data: './../data/40423125.stl', // data path
+      data: './../data/40423107.stl', // data path
       path: './../work/madeleine/src/' // path to source directory from current html file
     });
 }; 
