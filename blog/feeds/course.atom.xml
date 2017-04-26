@@ -8,9 +8,7 @@
 &lt;h2&gt;1.Fossil Server 實習查驗&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://mde2a2.kmol.info/midterm/ag4/index"&gt;ag4期中考報告 fossil &lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;2.四連桿機構協同 Trace Point 查驗&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/xnIJyKL"&gt;&lt;img src="http://i.imgur.com/xnIJyKL.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/fm9PdnV8RrM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;p&gt;&lt;a href="https://40423107.github.io/2016fallcadp_hw/blog/40423107W9.html"&gt;40423107_四連桿機構協同 Trace Point 查驗&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;3.Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h2&gt;
 &lt;p&gt;利用SolveSpace畫Fourbar Walker&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/EvKEe2F"&gt;&lt;img src="http://i.imgur.com/EvKEe2F.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -27,7 +25,39 @@
 &lt;p&gt;組合&lt;/p&gt;
 &lt;iframe width="854" height="480" src="https://www.youtube.com/embed/hT1Mqk_ZCvo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h2&gt;4.分組協同零件展示&lt;/h2&gt;</summary><category term="syllabus"></category><category term="w9"></category></entry><entry><title>協同產品設計實習20170413第八週</title><link href="./40423107W8.html" rel="alternate"></link><published>2017-04-13T00:00:00+08:00</published><updated>2017-04-13T00:00:00+08:00</updated><author><name>40423107</name></author><id>tag:,2017-04-13:./40423107W8.html</id><summary type="html">&lt;p&gt;自評+組員互評 沒東西 不用點進去 &lt;/p&gt;
+&lt;h2&gt;4.分組協同零件展示&lt;/h2&gt;
+&lt;p&gt;&lt;link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
+&lt;script src="./../work/madeleine/src/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/40423125.stl', // data path
+      path: './../work/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+&lt;/script&gt;
+
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="./../w9/loader.js"&gt;&lt;/script&gt;
+
+&lt;script src="./../w9/stl.js"&gt;&lt;/script&gt;
+
+&lt;div&gt;
+select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
+&lt;/div&gt;
+
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="syllabus"></category><category term="w9"></category></entry><entry><title>協同產品設計實習20170413第八週</title><link href="./40423107W8.html" rel="alternate"></link><published>2017-04-13T00:00:00+08:00</published><updated>2017-04-13T00:00:00+08:00</updated><author><name>40423107</name></author><id>tag:,2017-04-13:./40423107W8.html</id><summary type="html">&lt;p&gt;自評+組員互評 沒東西 不用點進去 &lt;/p&gt;
 
 
 &lt;p&gt;自評+組員互評&lt;/p&gt;</summary><category term="syllabus"></category><category term="w8"></category></entry><entry><title>協同產品設計實習20170406第七週</title><link href="./40423107W7.html" rel="alternate"></link><published>2017-04-06T00:00:00+08:00</published><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423107</name></author><id>tag:,2017-04-06:./40423107W7.html</id><summary type="html">&lt;p&gt;利用onshape繪製八連桿&lt;/p&gt;

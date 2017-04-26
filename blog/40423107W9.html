@@ -168,9 +168,7 @@
 <h2>1.Fossil Server 實習查驗</h2>
 <p><a href="https://mde2a2.kmol.info/midterm/ag4/index">ag4期中考報告 fossil </a></p>
 <h2>2.四連桿機構協同 Trace Point 查驗</h2>
-<p><a href="http://imgur.com/xnIJyKL"><img src="http://i.imgur.com/xnIJyKL.png" title="source: imgur.com" /></a></p>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/fm9PdnV8RrM" frameborder="0" allowfullscreen></iframe>
-
+<p><a href="https://40423107.github.io/2016fallcadp_hw/blog/40423107W9.html">40423107_四連桿機構協同 Trace Point 查驗</a></p>
 <h2>3.Fourbar Walker OnShape 零件協同繪圖與組立查驗</h2>
 <p>利用SolveSpace畫Fourbar Walker</p>
 <p><a href="http://imgur.com/EvKEe2F"><img src="http://i.imgur.com/EvKEe2F.png" title="source: imgur.com" /></a></p>
@@ -188,6 +186,38 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/hT1Mqk_ZCvo" frameborder="0" allowfullscreen></iframe>
 
 <h2>4.分組協同零件展示</h2>
+<p><link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../work/madeleine/src/stats.js"></script>
+<script src="./../work/madeleine/src/detector.js"></script>
+<script src="./../work/madeleine/src/three.min.js"></script>
+<script src="./../work/madeleine/src/Madeleine.js"></script></p>
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/40423125.stl', // data path
+      path: './../work/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+></script>
+
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+></script>
+
+<script src="./../w9/loader.js"></script>
+
+<script src="./../w9/stl.js"></script>
+
+<div>
+select stl file: <input type="file" id="file" /> or drop stl file
+</div>
+
+<div id="view"></div>
             </div>
             <!-- /.entry-content -->
         </article>
