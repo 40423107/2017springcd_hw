@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>協同產品設計實習20170323第五週 - 40423107上課報告</title>
+    <title>協同產品設計實習20170427第十週 - 40423107上課報告</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,21 +10,21 @@
 
 
 
-<link rel="canonical" href="./40423107W5.html">
+<link rel="canonical" href="./40423107W10.html">
 
         <meta name="author" content="40423107" />
-        <meta name="keywords" content="syllabus,w5" />
-        <meta name="description" content="利用v-rep設定單連桿運動" />
+        <meta name="keywords" content="syllabus,w10" />
+        <meta name="description" content="1.加法運算 2.減法運算 3.乘法運算 4.除法運算" />
 
         <meta property="og:site_name" content="40423107上課報告" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="協同產品設計實習20170323第五週"/>
-        <meta property="og:url" content="./40423107W5.html"/>
-        <meta property="og:description" content="利用v-rep設定單連桿運動"/>
-        <meta property="article:published_time" content="2017-03-23" />
+        <meta property="og:title" content="協同產品設計實習20170427第十週"/>
+        <meta property="og:url" content="./40423107W10.html"/>
+        <meta property="og:description" content="1.加法運算 2.減法運算 3.乘法運算 4.除法運算"/>
+        <meta property="article:published_time" content="2017-04-27" />
             <meta property="article:section" content="Course" />
             <meta property="article:tag" content="syllabus" />
-            <meta property="article:tag" content="w5" />
+            <meta property="article:tag" content="w10" />
             <meta property="article:author" content="40423107" />
 
 
@@ -132,10 +132,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./40423107W5.html"
+                    <a href="./40423107W10.html"
                        rel="bookmark"
-                       title="Permalink to 協同產品設計實習20170323第五週">
-                        協同產品設計實習20170323第五週
+                       title="Permalink to 協同產品設計實習20170427第十週">
+                        協同產品設計實習20170427第十週
                     </a>
                 </h1>
             </header>
@@ -145,7 +145,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-03-23T00:00:00+08:00"> 週四 23 三月 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-04-27T00:00:00+08:00"> 週四 27 四月 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423107.html"><i class="fa fa-user"></i> 40423107</a>
@@ -155,17 +155,239 @@
 <span class="label label-default">Tags</span>
 	<a href="./tag/syllabus.html">syllabus</a>
         /
-	<a href="./tag/w5.html">w5</a>
+	<a href="./tag/w10.html">w10</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>利用v-rep設定單連桿運動</p>
+                <p>1.加法運算</p>
+<p>2.減法運算</p>
+<p>3.乘法運算</p>
+<p>4.除法運算
+</p>
+<h2>1.加法運算</h2>
+<p>圖片</p>
+<p><a href="http://imgur.com/930ZIGD"><img src="http://i.imgur.com/930ZIGD.png" title="source: imgur.com" /></a></p>
+<p>影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W0tuaCsyE5g" frameborder="0" allowfullscreen></iframe>
 
+<h2>2.減法運算</h2>
+<p>圖片</p>
+<p><a href="http://imgur.com/w1Y3NYp"><img src="http://i.imgur.com/w1Y3NYp.png" title="source: imgur.com" /></a></p>
+<p>影片</p>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/GJXkf7gSI98" frameborder="0" allowfullscreen></iframe>
 
-<ol>
-<li>利用v-rep設定單連桿運動</li>
-</ol>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/AUv93XA_XC8" frameborder="0" allowfullscreen></iframe>
+<h2>3.乘法運算</h2>
+<p>圖片</p>
+<p><a href="http://imgur.com/S12bHgQ"><img src="http://i.imgur.com/S12bHgQ.png" title="source: imgur.com" /></a></p>
+<p>影片</p>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/IGqdKyngikI" frameborder="0" allowfullscreen></iframe>
+
+<h2>4.除法運算</h2>
+<p>圖片</p>
+<p><a href="http://imgur.com/TcjcNfZ"><img src="http://i.imgur.com/TcjcNfZ.png" title="source: imgur.com" /></a></p>
+<p>影片</p>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/KiooZhPOENQ" frameborder="0" allowfullscreen></iframe>
+
+<h1>網頁測試加法</h1>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
+
+</script>
+
+<p><button id="button1">按下取 a b 值</button></p>
+<p>add.py(加法)
+<pre class="brush:python">
+ 定義: add這個檔為a和b兩個變數</p>
+<p>輸出公式為 a+b</p>
+<p>導入sys</p>
+<p>指出資料夾路徑</p>
+<p>輸出add.pty這個檔</p>
+<p>把輸出之名命名為sum=add.add(1,2)    </p>
+<p>第一個為add.py檔名,第二個為add名稱</p>
+<p>輸出之公式ab為1和2
+ </pre></p>
+<h1>網頁測試乘法</h1>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container3" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+degree = math.pi/180
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+</script>
+
+<p><button id="button3">按下取 a b 值</button></p>
+<p>mul.py(乘法)
+<pre class="brush:python">
+ 定義: mul這個檔為a和b兩個變數</p>
+<p>輸出公式為 a*b</p>
+<p>導入sys</p>
+<p>指出資料夾路徑</p>
+<p>輸出mul.pty這個檔</p>
+<p>把輸出之名命名為multip=add.add(1,2)    </p>
+<p>第一個為mul.py檔名,第二個為mul名稱</p>
+<p>輸出之公式ab為1和2
+ </pre></p>
+<h1>網頁測試除法</h1>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container4" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+degree = math.pi/180
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+</script>
+
+<p><button id="button4">按下取 a b 值</button></p>
+<p>division.py(除法)
+<pre class="brush:python">
+ 定義: div這個檔為a和b兩個變數</p>
+<p>輸出公式為 a/b</p>
+<p>導入sys</p>
+<p>指出資料夾路徑</p>
+<p>輸出mul.pty這個檔</p>
+<p>把輸出之名命名為division=add.add(6,2)    </p>
+<p>第一個為mul.py檔名,第二個為mul名稱</p>
+<p>輸出之公式ab為6和2
+ </pre></p>
+<h1>網頁測試減法</h1>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container1" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container1']
+degree = math.pi/180
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+</script>
+
+<p><button id="button2">按下取 a b 值</button></p>
+<p>subtraction.py(減法)
+<pre class="brush:python">
+ 定義: div這個檔為a和b兩個變數</p>
+<p>輸出公式為 a-b</p>
+<p>導入sys</p>
+<p>指出資料夾路徑</p>
+<p>輸出mul.pty這個檔</p>
+<p>把輸出之名命名為subtraction=add.add(6,2)    </p>
+<p>第一個為add.py檔名,第二個為sub名稱</p>
+<p>輸出之公式ab為6和2
+ </pre></p>
             </div>
             <!-- /.entry-content -->
         </article>
