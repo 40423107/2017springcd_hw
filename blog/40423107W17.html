@@ -167,10 +167,10 @@
 <p>6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務</p>
 <p>7.各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.
 </p>
-<h2>1.</h2>
+<h2>1.各組員倉儲中的 Github 檔案推送</h2>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/BBIXV8jxPAM" frameborder="0" allowfullscreen></iframe>
 
-<h2>2.</h2>
+<h2>2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中</h2>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
@@ -231,50 +231,44 @@ ctx.fill()
 
 </script>
 
-<h2>程式碼</h2>
+<script src="https://gist.github.com/40423107/6aa055ac8f5375be79e231a05a383c20.js"></script>
 
-<p><pre class="brush: python">
-<canvas id="fourbar" width="800" height="600"></canvas></p>
-<div id="container1"></div>
+<h1>3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中</h1>
+<p>先創兩個新倉儲 g100和 ag100</p>
+<p>一樣設好分支 gh-pages</p>
+<p>然後 git clone 下來</p>
+<p>進入 g100 (cd g100)</p>
+<p>新增一個分支git branch gh-pages</p>
+<p>切換分支 git checkout gh-pages</p>
+<p>git submodule add -b gh-pages https://github.com/40423107/ag100.git ag100</p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/IGVbvXuavyo" frameborder="0" allowfullscreen></iframe>
 
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-# 準備繪圖畫布
-canvas = doc["fourbar"]
-container1 = doc['container1']
-ctx = canvas.getContext("2d")
+<h1>4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件</h1>
+<p><a href="http://imgur.com/GYz5I9V"><img src="http://i.imgur.com/GYz5I9V.png" title="source: imgur.com" /></a></p>
+<p><a href="http://imgur.com/2uEi2aM"><img src="http://i.imgur.com/2uEi2aM.png" title="source: imgur.com" /></a></p>
+<p><a href="http://imgur.com/QrRU4Tr"><img src="http://i.imgur.com/QrRU4Tr.png" title="source: imgur.com" /></a></p>
+<p><a href="http://imgur.com/FxJMKnb"><img src="http://i.imgur.com/FxJMKnb.png" title="source: imgur.com" /></a></p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/oH7jgBZClnA" frameborder="0" allowfullscreen></iframe>
 
-#繪製第一隻腳
-ctx.beginPath()
-ctx.moveTo(180,420)
-ctx.lineTo(320,480)
-ctx.lineTo(345.714,420)
-ctx.lineTo(303.688,401.999)
-ctx.lineTo(435.261,153.022)
-ctx.lineTo(387.984,128.037)
-ctx.lineTo(256.441,377.004)
-ctx.lineTo(207.424,356.01)
-ctx.lineTo(180,420)
-ctx.fillStyle="blue"
-ctx.fill()
+<h1>html3D展示</h1>
 
-#繪製第二隻腳
-ctx.beginPath()
-ctx.moveTo(406.02,128.666)
-ctx.lineTo(357.119,150.3)
-ctx.lineTo(471.046,407.819)
-ctx.lineTo(424.218,433.268)
-ctx.lineTo(457.46,494.438)
-ctx.lineTo(591.29,421.709)
-ctx.lineTo(560.121,364.353)
-ctx.lineTo(519.947,386.185)
-ctx.lineTo(406.02,128.666)
-ctx.fillStyle="red"
-ctx.fill()
+<iframe src="./../final/1.html" width="800" height="600"></iframe>
 
-</script>
+<iframe src="./../final/3.html" width="800" height="600"></iframe>
+
+<iframe src="./../final/5.html" width="800" height="600"></iframe>
+
+<iframe src="./../final/6.html" width="800" height="600"></iframe>
+
+<h2>5.各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬</h2>
+<p><a href="http://imgur.com/DV7Ho4L"><img src="http://i.imgur.com/DV7Ho4L.png" title="source: imgur.com" /></a></p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ngicsyGK4Es" frameborder="0" allowfullscreen></iframe>
+
+<h2>6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務</h2>
+<p>我是負責機台本體的設計</p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/4GZjppiKDCM" frameborder="0" allowfullscreen></iframe>
+
+<p><a href="http://imgur.com/Z204LTE"><img src="http://i.imgur.com/Z204LTE.png" title="source: imgur.com" /></a></p>
             </div>
             <!-- /.entry-content -->
         </article>
