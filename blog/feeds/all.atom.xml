@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>40423107上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-22T00:00:00+08:00</updated><entry><title>協同產品設計實習 協同製作四足行走機構</title><link href="./40423107W18.html" rel="alternate"></link><published>2017-06-22T00:00:00+08:00</published><updated>2017-06-22T00:00:00+08:00</updated><author><name>40423107</name></author><id>tag:,2017-06-22:./40423107W18.html</id><summary type="html">&lt;h2&gt;期末專題:繪製、製作四足行走機構&lt;/h2&gt;
 &lt;p&gt;1.各組員利用ONSHAPE繪製四足行走機構各部位零件&lt;/p&gt;
-&lt;p&gt;2.各組員繪製零件&lt;/p&gt;
-&lt;p&gt;3.用ONSHAPE建立團隊在線上進行協同組裝&lt;/p&gt;
-&lt;p&gt;4.使用V-REP進行腳部運作模擬&lt;/p&gt;
-&lt;p&gt;5.使用INVENTOE製作行走動畫及各工作圖&lt;/p&gt;
+&lt;p&gt;2.用ONSHAPE建立團隊在線上進行協同組裝&lt;/p&gt;
+&lt;p&gt;3.使用V-REP進行腳部運作模擬&lt;/p&gt;
+&lt;p&gt;4.使用INVENTOE製作行走動畫及各工作圖&lt;/p&gt;
 
 
 &lt;p&gt;四行走機構:本體上採用5個齒輪及1個馬達進行傳動，腳部為參考仿生獸之機構，再自行設計尺寸設計繪製，控制方面是使用ARDUINO控制伺服馬達進行走動。&lt;/p&gt;
@@ -12,7 +11,7 @@
 &lt;p&gt;&lt;a href="http://imgur.com/ox1rQvu"&gt;&lt;img src="http://i.imgur.com/ox1rQvu.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/NuTmD2n"&gt;&lt;img src="http://i.imgur.com/NuTmD2n.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/Suxd3Nh"&gt;&lt;img src="http://i.imgur.com/Suxd3Nh.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;1.各組員利用ONSHAPE繪製四足行走機構各部位零件&lt;/p&gt;
+&lt;h2&gt;1.各組員利用ONSHAPE繪製四足行走機構各部位零件&lt;/h2&gt;
 &lt;p&gt;零件1&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/0mri5Rp"&gt;&lt;img src="http://i.imgur.com/0mri5Rp.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/222775574" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
@@ -48,20 +47,26 @@
 &lt;iframe src="https://player.vimeo.com/video/222780582" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/222780582"&gt;2017-06-23_12-30-50&lt;/a&gt; from &lt;a href="https://vimeo.com/user57418042"&gt;曾繼緯&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;h1&gt;2.各組員繪製零件&lt;/h1&gt;
-&lt;p&gt;齒輪&lt;/p&gt;
-
+&lt;p&gt;齒輪T20&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/f9BskUM"&gt;&lt;img src="http://i.imgur.com/f9BskUM.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;齒輪T15&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/C9PY0CW"&gt;&lt;img src="http://i.imgur.com/C9PY0CW.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;齒輪T18&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/xnoIzb1"&gt;&lt;img src="http://i.imgur.com/xnoIzb1.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;齒輪T25&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/M3SNO1E"&gt;&lt;img src="http://i.imgur.com/M3SNO1E.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;齒輪T12&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/qYaQn0Z"&gt;&lt;img src="http://i.imgur.com/qYaQn0Z.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1&gt;3.用ONSHAPE建立團隊在線上進行協同組裝&lt;/h1&gt;
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/DYHBLNmvi18" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe width="854" height="480" src="https://www.youtube.com/embed/uhafPae8IXM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;2.用ONSHAPE建立團隊在線上進行協同組裝&lt;/h2&gt;
 &lt;iframe src="https://player.vimeo.com/video/222781931" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/222781931"&gt;2017-06-23_12-55-03&lt;/a&gt; from &lt;a href="https://vimeo.com/user57418042"&gt;曾繼緯&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
@@ -69,14 +74,15 @@
 &lt;p&gt;&lt;a href="http://imgur.com/2QmV3vP"&gt;&lt;img src="http://i.imgur.com/2QmV3vP.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/E6s21gikOhw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
+&lt;p&gt;&lt;a href="http://imgur.com/0Hy7Tis"&gt;&lt;img src="http://i.imgur.com/0Hy7Tis.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/222782958" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/222782958"&gt;ag4協同繪製組裝四足機構(onshape)-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user45854799"&gt;40423106&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1&gt;4.使用V-REP進行腳部運作模擬&lt;/h1&gt;
+&lt;h2&gt;3.使用V-REP進行腳部運作模擬&lt;/h2&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/oRponkfd37k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h1&gt;5.INVENTOR&lt;/h1&gt;
+&lt;h2&gt;4.INVENTOR&lt;/h2&gt;
 &lt;h2&gt;完整機構行走模擬動畫&lt;/h2&gt;
 &lt;iframe src="https://player.vimeo.com/video/221532208" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
